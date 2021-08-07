@@ -252,76 +252,76 @@ const QuizList = [
 ]
 
 const questions = [
-    {
-      quizId: "dfjsak2",
-      quizName: "How are you!",
-      points: 5,
-      questions: [
-        {
-          question: "How are you",
-          options: [
-            {
-              text: "fine",
-              isRight: true
-            },
-            {
-              text: "thank you",
-              isRight: false
-            },
-            {
-              text: "thank you",
-              isRight: false
-            },
-          ]
-        },
-        {
-          question: "How Was your day?",
-          options: [
-            {
-              text: "it was fine",
-              isRight: true
-            },
-            {
-              text: "it was bad",
-              isRight: false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      quizId: "dfjsa22",
-      quizName: "What ur name!",
-      points: 5,
-      questions: [
-        {
-          question: "is your name Vishal",
-          options: [
-            {
-              text: "noe",
-              isRight: false
-            },
-            {
-              text: "yes",
-              isRight: true
-            }
-          ]
-        },
-        {
-          question: "do you have gf",
-          options: [
-            {
-              text: "noe",
-              isRight: true
-            },
-            {
-              text: "yes",
-              isRight: false
-            }
-          ]
-        }
-      ]
-    },
+    // {
+    //   quizId: "dfjsak2",
+    //   quizName: "How are you!",
+    //   points: 5,
+    //   questions: [
+    //     {
+    //       question: "How are you",
+    //       options: [
+    //         {
+    //           text: "fine",
+    //           isRight: true
+    //         },
+    //         {
+    //           text: "thank you",
+    //           isRight: false
+    //         },
+    //         {
+    //           text: "thank you",
+    //           isRight: false
+    //         },
+    //       ]
+    //     },
+    //     {
+    //       question: "How Was your day?",
+    //       options: [
+    //         {
+    //           text: "it was fine",
+    //           isRight: true
+    //         },
+    //         {
+    //           text: "it was bad",
+    //           isRight: false
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // },
+    // {
+    //   quizId: "dfjsa22",
+    //   quizName: "What ur name!",
+    //   points: 5,
+    //   questions: [
+    //     {
+    //       question: "is your name Vishal",
+    //       options: [
+    //         {
+    //           text: "noe",
+    //           isRight: false
+    //         },
+    //         {
+    //           text: "yes",
+    //           isRight: true
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       question: "do you have gf",
+    //       options: [
+    //         {
+    //           text: "noe",
+    //           isRight: true
+    //         },
+    //         {
+    //           text: "yes",
+    //           isRight: false
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // },
   
     {
       quizId: "dfjsa224",
@@ -549,8 +549,120 @@ const questions = [
         },
       ]
     },
+    {
+      quizId: "dfjsa14324",
+      quizName: "The Marvel Fan quiz",
+      quizImage: "https://images.immediate.co.uk/production/volatile/sites/3/2020/03/infinity-war-122ce1b.jpg?quality=90&resize=620,413",
+      points: 10,
+      questions: [
+        {
+          question: "Which of these is NOT an infinity stone?",
+          options: [
+            {
+              text: "Love",
+              isRight: true
+            },
+            {
+              text: "Reality",
+              isRight: false
+            },
+            {
+              text: "Space",
+              isRight: false
+            },
+            {
+              text: "Time",
+              isRight: false
+            }
+          ]
+        },
+        {
+          question: "What is Captain America's shield made out of?",
+          options: [
+            {
+              text: "Gravitonium",
+              isRight: false
+            },
+            {
+              text: "Vibranium",
+              isRight: true
+            },
+            {
+              text: "Adamantium",
+              isRight: false
+            },
+            {
+              text: "Titanium",
+              isRight: false
+            }
+          ]
+        },
+        {
+          question: "What country are Scarlet Witch and Quicksilver from?",
+          options: [
+            {
+              text: "Wakanda",
+              isRight: false
+            },
+            {
+              text: "Sokovia",
+              isRight: true
+            },
+            {
+              text: "Soviet Russia",
+              isRight: false
+            },
+            {
+              text: "Krakoa",
+              isRight: false
+            }
+          ]
+        },
+        {
+          question: "What's the name of the helpful AI Tony Stark invented to replace J.A.R.V.I.S.?",
+          options: [
+            {
+              text: "S.H.I.E.L.D.",
+              isRight: false
+            },
+            {
+              text: "U.L.T.R.O.N.",
+              isRight: false
+            },
+            {
+              text: "F.R.I.D.A.Y.",
+              isRight: true
+            },
+            {
+              text: "E.D.I.T.H.",
+              isRight: false
+            }
+          ]
+        },
+        {
+          question: "What species did Loki discover he is?",
+          options: [
+            {
+              text: "Human",
+              isRight: false
+            },
+            {
+              text: "Asgardian",
+              isRight: false
+            },
+            {
+              text: "A god",
+              isRight: false
+            },
+            {
+              text: "Frost giant",
+              isRight: true
+            }
+          ]
+        },
+      ]
+    },
   ];
-
 
 router.route('/')
     .get(async (req, res) => {
